@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+     box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+main{
+display:flex;    
+justify-content: center;
+background-image: url(../images/banners/tamanna-rumee-eD1RNYzzUxc-unsplash\ \(1\).jpg);
+background-size:100% 100%;
+padding: 180px  0px;
+}
+.login{
+    background-color:rgba(red, green, blue, alpha);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 8px rgba(49, 107, 141, 0.688);
+     max-width: 350px; /**/
+     text-align: center;
+}
+.login h2{
+margin-bottom: 20px;
+color: #f9f0f0;
+font-size: 30px;
+
+}
+.login input{
+    width: 100%; 
+    padding: 12px;
+    margin: 10px  0px;
+    border: none;
+    border-radius: 50px;
+    background:rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    color: #000;
+}
+.login button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 50px;
+    background: #573b576d;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.login button:hover{
+    background: #6d446d;
+}
+.sign{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+.sign a{
+    color: #9091df;
+        font-size: 14px;
+    font-weight: bold;
+    text-decoration:none;
+}
+.sign a:hover{
+    color: #716f75;
+    text-decoration: underline;
+}
+@media (max-width: 700px){
+
+.login{
+     max-width: 300px;
+
+}
+.login input{
+     width: 90%;
+}
+.login button{
+    width: 90%;
+}
+.login h2{
+font-size: 25px;
+
+}
+
+}
+    
